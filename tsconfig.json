@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "esModuleInterop": true,
+      "jsx": "react-native",
+      "lib": ["es6"],
+      "moduleResolution": "node",
+      "noImplicitAny": true,
+      "strict": true,
+      "target": "esnext",
+      "skipLibCheck": true,
+      "outDir": "./dist"
+    },
+    "exclude": ["node_modules"]
+}
