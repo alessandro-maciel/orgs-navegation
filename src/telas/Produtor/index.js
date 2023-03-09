@@ -9,7 +9,7 @@ import topo from "../../assets/produtores/topo.png";
 
 export default function Produtor(){
     const route = useRoute();
-     const {tituloProdutor, tituloCestas} = useTextos();
+    const {tituloProdutor, tituloCestas} = useTextos();
     const {nome, imagem, cestas} = route.params;
 
     const TopoLista = () => {
